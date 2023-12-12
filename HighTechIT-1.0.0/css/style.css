@@ -517,6 +517,10 @@
 .team-img img {
     border: 10px solid var(--bs-secondary);
     transition: .5s;
+    width: 100px;
+    height: 250px;
+    object-fit: cover;
+    object-position:top;
 }
 
 .team-item:hover h4 {
