@@ -92,6 +92,10 @@
     animation: mymove 5s infinite;
     animation-timing-function: all;
 }
+#card-wrap{
+    height: 450px;
+}
+
 
 @keyframes mymove {
     from {
@@ -673,7 +677,12 @@
     background: var(--bs-secondary);
     border: 0;
 }
-
+/* .card-img{
+    background-color: unset !important;
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 100% !important;
+} */
 
 
 /*** Footer End ***/
