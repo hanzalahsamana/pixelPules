@@ -243,6 +243,8 @@
     opacity: 1;
     border: 0;
     border-radius: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
 }
 
 .carousel-caption .carousel-content a button.carousel-content-btn2:hover {
@@ -289,11 +291,11 @@
 
 @media (max-width: 768px) {
     .carousel-item {
-        min-height: 400px;
+        min-height: 600px;
     }
 
     .carousel-item img {
-        min-height: 400px;
+        min-height: 600px;
         object-fit: cover;
     }
 
