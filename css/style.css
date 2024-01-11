@@ -1,5 +1,12 @@
 /*** Spinner Start ***/
-
+body{
+    background-color: #060818;
+    /* #0E1726  theme colour*/ 
+    /* #121E32 headings */
+}
+h1,h2,h3,h5,h6{
+ color: #888EA8 !important ;
+}
 #spinner {
     opacity: 0;
     visibility: hidden;
@@ -346,7 +353,7 @@
     top: 0;
     left: 0;
     border-radius: 10px 10px 0 0;
-    background: rgba(3, 43, 243, 0.8);
+    background: #40D99A;
     transition: .5s;
 }
 
@@ -679,12 +686,10 @@
     background: var(--bs-secondary);
     border: 0;
 }
-/* .card-img{
-    background-color: unset !important;
-    width: 100px !important;
-    height: 100px !important;
-    border-radius: 100% !important;
-} */
-
 
 /*** Footer End ***/
+ 
+#fact-numbers
+{
+    color: #0E1726 !important;
+} 
