@@ -1,12 +1,18 @@
 /*** Spinner Start ***/
-body{
+body {
     background-color: #060818;
-    /* #0E1726  theme colour*/ 
+    /* #0E1726  theme colour*/
     /* #121E32 headings */
 }
-h1,h2,h3,h5,h6{
- color: #888EA8 !important ;
+
+h1,
+h2,
+h3,
+h5,
+h6 {
+    color: #888EA8 !important;
 }
+
 #spinner {
     opacity: 0;
     visibility: hidden;
@@ -99,7 +105,8 @@ h1,h2,h3,h5,h6{
     animation: mymove 5s infinite;
     animation-timing-function: all;
 }
-#card-wrap{
+
+#card-wrap {
     height: 450px;
 }
 
@@ -228,16 +235,18 @@ h1,h2,h3,h5,h6{
 }
 
 .carousel-caption .carousel-content a button.carousel-content-btn1 {
-    background: var(--bs-secondary);
-    color: var(--bs-dark);
+    background: var(--bs-primary);
+    color: var(--bs-white);
     opacity: 1;
     border: 0;
     border-radius: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
 }
 
 .carousel-caption .carousel-content a button.carousel-content-btn1:hover {
-    background: var(--bs-primary);
-    color: #ffffff;
+    background: var(--bs-secondary);
+    color: var(--bs-dark);
     border: 0;
     opacity: 1;
     transition: 1s;
@@ -353,7 +362,7 @@ h1,h2,h3,h5,h6{
     top: 0;
     left: 0;
     border-radius: 10px 10px 0 0;
-    background: #40D99A;
+    background: #47DA9D;
     transition: .5s;
 }
 
@@ -377,14 +386,6 @@ h1,h2,h3,h5,h6{
 .services-item .services-content-icon i,
 .services-item .services-content-icon p {
     transition: .5s;
-}
-
-.services-item:hover .services-content-icon i {
-    color: var(--bs-secondary) !important;
-}
-
-.services-item:hover .services-content-icon p {
-    color: var(--bs-white);
 }
 
 /*** Services End ***/
@@ -510,7 +511,7 @@ h1,h2,h3,h5,h6{
     content: "";
     position: relative;
     top: -101px;
-    background: var(--bs-secondary);
+    background: var(--bs-secondary) !important;
     clip-path: polygon(50% 50%, 100% 50%, 50% 100%, 0% 50%);
     padding: 60px;
     opacity: 1;
@@ -533,7 +534,7 @@ h1,h2,h3,h5,h6{
     width: 100px;
     height: 250px;
     object-fit: cover;
-    object-position:top;
+    object-position: top;
 }
 
 .team-item:hover h4 {
@@ -599,7 +600,16 @@ h1,h2,h3,h5,h6{
 /*** Testimonial Start ***/
 
 .testimonial-item {
-    background: #e3f0eb;
+    background: #0E1726;
+
+}
+.testimonial-carousel .owl-item.center .testimonial-item .fas {
+    color: #0E1726 !important;
+}
+
+
+.testimonial-item .fas {
+    color: #47DA9D;
 
 }
 
@@ -616,14 +626,14 @@ h1,h2,h3,h5,h6{
     margin: 0 5px;
     width: 15px;
     height: 15px;
-    background: #c1dad0;
+    background: white;
     border-radius: 15px;
     transition: .5s;
 }
 
 .testimonial-carousel .owl-dot.active {
     width: 30px;
-    background: var(--bs-primary);
+    background: white !important;
 }
 
 .testimonial-carousel .owl-item.center {
@@ -636,8 +646,9 @@ h1,h2,h3,h5,h6{
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item {
-    background: #FFFFFF !important;
-    box-shadow: 0 0 30px #DDDDDD;
+    background: #26d48c !important;
+    color: white;
+    box-shadow: 0 0 30px #060818;
 }
 
 /*** Testimonial End ***/
@@ -688,8 +699,76 @@ h1,h2,h3,h5,h6{
 }
 
 /*** Footer End ***/
- 
-#fact-numbers
-{
+
+#fact-numbers {
     color: #0E1726 !important;
-} 
+}
+
+.services-headings {
+    color: white;
+}
+
+.read-more-btn {
+    background-color: #26d48c;
+}
+
+.read-more-btn:hover {
+    background-color: black;
+}
+
+.icon-style {
+    color: #47DA9D !important;
+}
+
+.services-div {
+    background-color: #0E1726 !important;
+}
+
+.btn-secondary {
+    background-color: #0E1726;
+}
+
+.team-content {
+    background-color: #0E1726 !important;
+}
+
+.testimonial-item {
+    border: 1px solid #060818 !important;
+    color: white !important;
+}
+
+.fa-stars {
+    color: #26d48c;
+}
+
+.owl-item h4 {
+    color: white !important;
+}
+
+.contact-details-div {
+    background-color: #0E1726 !important;
+}
+
+.contact-details-div h4 {
+    color: white !important;
+}
+
+.h5 {
+    color: white !important;
+}
+
+.footer {
+    background-color: #0E1726 !important;
+}
+
+.services-div:hover .fa {
+    color: #0E1726 !important;
+}
+
+.services-div:hover .fas {
+    color: #0E1726 !important;
+}
+
+h1 {
+    color: white !important;
+}
